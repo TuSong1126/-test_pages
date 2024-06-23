@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div>7777</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Squirrel Space</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-image: linear-gradient(
+          to left top,
+          #d16ba5,
+          #c777b9,
+          #ba83ca,
+          #aa8fd8,
+          #9a9ae1,
+          #8aa7ec,
+          #79b3f4,
+          #69bff8,
+          #52cffe,
+          #41dfff,
+          #46eefa,
+          #5ffbf1
+        );
+      }
+
+      .init-before-login-container {
+        height: 100vh;
+        position: relative;
+      }
+
+      .init-before-login-img-title {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: init-before-login-fadeIn 4s linear;
+      }
+
+      .init-before-login-title {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 40px;
+        position: absolute;
+        top: 72%;
+      }
+
+      @keyframes init-before-login-fadeIn {
+        0% {
+          opacity: 0;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index.e46b4b23.js"></script>
+    <link rel="stylesheet" href="./assets/index.d635aeb7.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="init-before-login-container">
+        <div class="init-before-login-img-title">
+          <img src="./assets/init_logo.69f0e792.png" />
+          <div class="init-before-login-title animate__animated animate__rubberBand">
+            Squirrel Space
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
 </html>
