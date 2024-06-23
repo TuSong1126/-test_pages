@@ -1,1 +1,0 @@
-import{a as s,q as a,u as e,r as t,t as n,o as i,c as r}from"./index.e46b4b23.js";const o=s({__name:"index",emits:["transferClick"],setup(s,{emit:o}){a(),e();const d=t({loading:!1});return n(d),(s,a)=>(i(),r("div",null,"模板页面BBB"))}});export{o as default};
